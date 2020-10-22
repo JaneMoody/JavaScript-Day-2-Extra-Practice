@@ -45,7 +45,10 @@ Use .forEach() - hint - you will need to include the index in the callback
 TASK 3 🚀
 // Sort the topping alphabetically and return them in a new array 
 */
+console.log("Task 3");
 
+sortedToppings = toppings.sort();
+console.log(sortedToppings);
 
 
 
@@ -66,6 +69,18 @@ const vacations = [
 TASK 4 🚀
 // The travel agent would like to send a couple on their honeymoon to a location with a beach and a temperature above 90 degrees. return their options in a new array 
 */
+
+
+// let honeyMoon = copy(vacations){
+//     return [...array];
+// }
+// console.log(honeyMoon);
+
+// for(let i=0; i<array.length; i++){
+//     if(vacations.beach === true && vacations.temperature > 90){
+        
+//     }
+//     return 
 
 
 
