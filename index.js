@@ -7,6 +7,19 @@ TASK 1 🚀
 // The customer would like to see the topping options, console log out each of the toppings one by one in the array above 
 */
 
+console.log("Task 1");
+
+console.log(toppings[0]);
+console.log(toppings[1]);
+console.log(toppings[2]);
+console.log(toppings[3]);
+console.log(toppings[4]);
+console.log(toppings[5]);
+console.log(toppings[6]);
+console.log(toppings[7]);
+console.log(toppings[8]);
+console.log(toppings[9]);
+console.log(toppings[10]);
 
 /*
 TASK 2 🚀
@@ -15,6 +28,17 @@ for example you no longer have any onions and need to remove it from the list of
 Use .forEach() - hint - you will need to include the index in the callback
  */
 
+ console.log("Task 2");
+
+ function removeOnions(array, string){
+      let newToppings = array.indexOf(string);
+      if(newToppings !== -1 ){
+        array.splice(newToppings, 1 );
+        return toppings.length;
+      }
+    };
+    console.log(removeOnions(toppings, "onions"));
+    console.log(toppings[9]);
 
 
 /*
